@@ -9,7 +9,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#F7F1E8"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -20,7 +22,11 @@
       }
     },
     "extra": {
-      "glbBaseUrlHint": "Set EXPO_PUBLIC_GLB_BASE_URL in your shell so AR can resolve relative glb_url files"
-    }
+      "glbBaseUrlHint": "Set EXPO_PUBLIC_GLB_BASE_URL in your shell so AR can resolve relative glb_url files",
+      "eas": {
+        "projectId": "d149c7c7-74da-45f9-ab44-e890a03840f4"
+      }
+    },
+    "owner": "pra-app"
   }
 }
