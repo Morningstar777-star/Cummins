@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Olive & Oak",
+    "slug": "olive-oak-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F1E8"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.oliveoak.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F1E8"
+      }
+    },
+    "extra": {
+      "glbBaseUrlHint": "Set EXPO_PUBLIC_GLB_BASE_URL in your shell so AR can resolve relative glb_url files"
+    }
+  }
+}

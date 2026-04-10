@@ -1,0 +1,47 @@
+{
+  "name": "olive-oak-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/expo/bin/cli start",
+    "android": "node ./node_modules/expo/bin/cli run:android",
+    "ios": "node ./node_modules/expo/bin/cli run:ios",
+    "web": "node ./node_modules/expo/bin/cli start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/slider": "5.0.1",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "axios": "^1.7.9",
+    "expo": "^54.0.33",
+    "expo-asset": "~12.0.12",
+    "expo-gl": "~16.0.10",
+    "expo-image-picker": "~17.0.10",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-status-bar": "~3.0.9",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.8.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hot-toast": "^2.6.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-web": "^0.21.0",
+    "three": "0.183.2",
+    "zustand": "^5.0.3"
+  },
+  "overrides": {
+    "three": "0.183.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "babel-preset-expo": "~54.0.10",
+    "typescript": "^5.7.3"
+  }
+}

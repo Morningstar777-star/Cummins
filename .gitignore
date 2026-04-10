@@ -1,0 +1,19 @@
+# OS/editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# Node/Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/.env
+
+# Logs
+*.log
