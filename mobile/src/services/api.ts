@@ -3,6 +3,8 @@ import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 import { useAuthStore } from '../store/authStore';
 
+const RENDER_API_BASE_URL = 'https://cummins-hwtb.onrender.com/api/v1';
+
 function parseHost(value?: string) {
   if (!value || !value.trim()) {
     return '';
@@ -91,7 +93,8 @@ function resolveHost() {
 const resolvedHost = resolveHost();
 
 const resolvedEnvApiUrl = resolveEnvApiUrl(envApiUrl);
-export const API_BASE_URL = resolvedEnvApiUrl || `http://${resolvedHost}:8000/api/v1`;
+const localFallbackApiUrl = `http://${resolvedHost}:8000/api/v1`;
+export const API_BASE_URL = resolvedEnvApiUrl || (__DEV__ ? localFallbackApiUrl : RENDER_API_BASE_URL);
 
 if (__DEV__) {
   console.log('[api] baseURL', API_BASE_URL);
