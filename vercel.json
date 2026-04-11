@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "installCommand": "cd mobile && npm install",
+  "buildCommand": "cd mobile && npm run build:web",
+  "outputDirectory": "mobile/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
