@@ -1,3 +1,4 @@
+import json
 from typing import Literal
 
 from pydantic import Field, field_validator, model_validator
@@ -54,12 +55,25 @@ class Settings(BaseSettings):
     groq_model_text: str = "llama-3.1-8b-instant"
     groq_model_vision: str = "meta-llama/llama-4-scout-17b-16e-instruct"
 
-    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", case_sensitive=False)
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+        case_sensitive=False,
+        enable_decoding=False,
+    )
 
     @field_validator("cors_allowed_origins", "cors_allow_methods", "cors_allow_headers", "trusted_hosts", mode="before")
     @classmethod
     def parse_list_values(cls, value):
         if isinstance(value, str):
+            text = value.strip()
+            if text.startswith("[") and text.endswith("]"):
+                try:
+                    parsed = json.loads(text)
+                    if isinstance(parsed, list):
+                        return [str(item).strip() for item in parsed if str(item).strip()]
+                except json.JSONDecodeError:
+                    pass
             return _split_csv(value)
         return value
 
