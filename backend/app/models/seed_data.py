@@ -22,31 +22,31 @@ GLB_CATEGORIES = [
     {
         "id": "living-room",
         "title": "Living Room",
-        "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/sofa_01.glb",
+        "glb_url": "https://singular-halva-632c6d.netlify.app/sofa_01.glb",
         "thumbnail_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600",
     },
     {
         "id": "bedroom",
         "title": "Bedroom",
-        "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/bed_06.glb",
+        "glb_url": "https://singular-halva-632c6d.netlify.app/bed_06.glb",
         "thumbnail_url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
     },
     {
         "id": "kitchen",
         "title": "Kitchen",
-        "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/gas_stove.glb",
+        "glb_url": "https://singular-halva-632c6d.netlify.app/kitchen.glb",
         "thumbnail_url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=600",
     },
     {
         "id": "decor",
         "title": "Decor",
-        "glb_url": "disco_ball.glb",
+        "glb_url": "https://singular-halva-632c6d.netlify.app/disco_ball.glb",
         "thumbnail_url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600",
     },
     {
         "id": "classroom",
         "title": "Classroom",
-        "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/whiteboard_low-poly.glb",
+        "glb_url": "https://singular-halva-632c6d.netlify.app/whiteboard_low-poly.glb",
         "thumbnail_url": "https://github.com/Morningstar777-star/Images/blob/main/classroom-interior-with-school-desks-chairs-and-green-board-empty-school-classroom-photo.webp",
     },
 ]
@@ -62,7 +62,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/sofa_01.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/sofa_01.glb",
         },
         "attributes": {
             "aesthetic_style": "Minimalist",
@@ -82,7 +82,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/bed_06.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/bed_06.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -102,7 +102,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/disco_ball.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/disco_ball.glb",
         },
         "attributes": {
             "aesthetic_style": "Traditional",
@@ -122,7 +122,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/disco_ball.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/disco_ball.glb",
         },
         "attributes": {
             "aesthetic_style": "Industrial",
@@ -142,7 +142,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/cosy_bed.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/cosy_bed.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -162,7 +162,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/gas_stove.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/gas_stove.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -182,7 +182,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/gas_stove_kg67mtl.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/gas_stove_kg67mtl.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -202,7 +202,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/kitchen_accessories_v1.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/kitchen_accessories_v1.glb",
         },
         "attributes": {
             "aesthetic_style": "Traditional",
@@ -222,7 +222,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/low_poly_blender_red.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/low_poly_blender_red.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -242,7 +242,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1606859191214-25806e8e2427?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/low_poly_stand_mixer_red.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/low_poly_stand_mixer_red.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -262,7 +262,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/low_poly_toaster_red.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/low_poly_toaster_red.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -282,7 +282,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/whiteboard_low-poly.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/whiteboard_low-poly.glb",
         },
         "attributes": {
             "aesthetic_style": "Minimalist",
@@ -302,7 +302,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/computer_desk.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/classroom_desk.glb",
         },
         "attributes": {
             "aesthetic_style": "Modern",
@@ -322,7 +322,7 @@ PRODUCTS = [
         "is_active": True,
         "media": {
             "image_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200",
-            "glb_url": "https://radiant-sherbet-aa1f57.netlify.app/high_school_desk.glb",
+            "glb_url": "https://singular-halva-632c6d.netlify.app/high_school_desk.glb",
         },
         "attributes": {
             "aesthetic_style": "Traditional",

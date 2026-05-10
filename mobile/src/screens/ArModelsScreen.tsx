@@ -25,18 +25,22 @@ type ArModelItem = {
 };
 
 const FALLBACK_LIBRARY: Array<{ title: string; categoryId: string; glbUrl: string }> = [
-  { title: 'Kitchen Gas Stove', categoryId: 'kitchen', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/gas_stove.glb' },
-  { title: 'Kitchen Gas Stove KG67', categoryId: 'kitchen', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/gas_stove_kg67mtl.glb' },
-  { title: 'Kitchen Accessories', categoryId: 'kitchen', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/kitchen_accessories_v1.glb' },
-  { title: 'Kitchen Blender', categoryId: 'kitchen', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/low_poly_blender_red.glb' },
-  { title: 'Kitchen Stand Mixer', categoryId: 'kitchen', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/low_poly_stand_mixer_red.glb' },
-  { title: 'Kitchen Toaster', categoryId: 'kitchen', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/low_poly_toaster_red.glb' },
-  { title: 'Living Room Sofa', categoryId: 'living-room', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/sofa_01.glb' },
-  { title: 'Bedroom Cosy Bed', categoryId: 'bedroom', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/cosy_bed.glb' },
-  { title: 'Bedroom Bed 06', categoryId: 'bedroom', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/bed_06.glb' },
-  { title: 'Classroom Whiteboard', categoryId: 'classroom', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/whiteboard_low-poly.glb' },
-  { title: 'Classroom Computer Desk', categoryId: 'classroom', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/computer_desk.glb' },
-  { title: 'Classroom High School Desk', categoryId: 'classroom', glbUrl: 'https://radiant-sherbet-aa1f57.netlify.app/high_school_desk.glb' },
+  { title: 'Bedroom Bed 06', categoryId: 'bedroom', glbUrl: 'https://singular-halva-632c6d.netlify.app/bed_06.glb' },
+  { title: 'Bedroom Cosy Bed', categoryId: 'bedroom', glbUrl: 'https://singular-halva-632c6d.netlify.app/cosy_bed.glb' },
+  { title: 'Classroom Desk', categoryId: 'classroom', glbUrl: 'https://singular-halva-632c6d.netlify.app/classroom_desk.glb' },
+  { title: 'Computer Desk', categoryId: 'classroom', glbUrl: 'https://singular-halva-632c6d.netlify.app/computer_desk.glb' },
+  { title: 'High School Desk', categoryId: 'classroom', glbUrl: 'https://singular-halva-632c6d.netlify.app/high_school_desk.glb' },
+  { title: 'Whiteboard', categoryId: 'classroom', glbUrl: 'https://singular-halva-632c6d.netlify.app/whiteboard_low-poly.glb' },
+  { title: 'Gray Sofa', categoryId: 'living-room', glbUrl: 'https://singular-halva-632c6d.netlify.app/gray_sofa.glb' },
+  { title: 'Sofa 01', categoryId: 'living-room', glbUrl: 'https://singular-halva-632c6d.netlify.app/sofa_01.glb' },
+  { title: 'Main Kitchen', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/kitchen.glb' },
+  { title: 'Kitchen Table', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/kitchen_table.glb' },
+  { title: 'Accessories', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/kitchen_accessories_v1.glb' },
+  { title: 'Gas Stove', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/gas_stove.glb' },
+  { title: 'Gas Stove KG67MTL', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/gas_stove_kg67mtl.glb' },
+  { title: 'Stand Mixer', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/low_poly_stand_mixer_red.glb' },
+  { title: 'Toaster', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/low_poly_toaster_red.glb' },
+  { title: 'Blender', categoryId: 'kitchen', glbUrl: 'https://singular-halva-632c6d.netlify.app/low_poly_blender_red.glb' },
 ];
 
 function normalize(value: unknown) {
